@@ -1,0 +1,172 @@
+.home-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.home-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.home-header h1 {
+  color: #667eea;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-header p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.loading,
+.error {
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.error {
+  color: #e74c3c;
+}
+
+.no-data {
+  background: white;
+  border-radius: 12px;
+  padding: 3rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.no-data h3 {
+  color: #667eea;
+  margin-bottom: 1rem;
+}
+
+.no-data p {
+  color: #666;
+}
+
+.timetable-wrapper {
+  overflow-x: auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.timetable {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 900px;
+}
+
+.timetable thead th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1rem;
+  font-weight: 600;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.time-column {
+  width: 120px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+}
+
+.time-cell {
+  background: #f8f9fa;
+  font-weight: 600;
+  color: #667eea;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  white-space: nowrap;
+}
+
+.schedule-cell {
+  border: 1px solid #e0e0e0;
+  padding: 0.5rem;
+  vertical-align: top;
+  min-height: 100px;
+}
+
+.class-card {
+  background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+  border-left: 4px solid #667eea;
+  border-radius: 8px;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.class-card:last-child {
+  margin-bottom: 0;
+}
+
+.class-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(102, 126, 234, 0.2);
+}
+
+.subject-code {
+  font-weight: 700;
+  color: #667eea;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.subject-name {
+  font-size: 0.875rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.class-details {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  font-size: 0.75rem;
+}
+
+.class-details span {
+  background: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  color: #666;
+  white-space: nowrap;
+}
+
+.teacher {
+  color: #667eea;
+  font-weight: 600;
+}
+
+.room {
+  color: #e74c3c;
+  font-weight: 600;
+}
+
+.semester {
+  color: #27ae60;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    padding: 1rem;
+  }
+
+  .home-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .timetable-wrapper {
+    border-radius: 8px;
+  }
+}

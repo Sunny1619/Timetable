@@ -1,0 +1,62 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django specific
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+static/
+local_settings.py
+
+# Environment variables
+.env
+.env.*
+*.env
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Backup / Package files
+*.bak
+*.swp
+*.tmp
+*.old
+*.orig
+*.tar.gz
+*.zip
+
+# Migrations (optional, keep if your team shares DB schema via code)
+# Uncomment below if you don't want migrations in git
+# */migrations/
+# !*/migrations/__init__.py
+
+# Node / Frontend (if inside backend folder)
+node_modules/
+package-lock.json
+yarn.lock
+
+# pytest / coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
