@@ -5,7 +5,7 @@ Lightweight full‑stack app to collect teacher timeslot preferences, auto‑gen
 - Backend: Django REST + JWT (MySQL)
 - Frontend: React + Vite + Axios
 
-## Quick start (macOS, zsh)
+## Quick start
 
 ### Prerequisites
 - Python 3.10+ with `venv`
@@ -53,7 +53,7 @@ Run the server:
 ```zsh
 python manage.py runserver
 ```
-Your API is at http://127.0.0.1:8000/api/
+Our API is at http://127.0.0.1:8000/api/
 
 Useful endpoints:
 - `POST /api/auth/login/` → JWT tokens
